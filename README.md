@@ -1,1 +1,1 @@
-# -terraform-aws-sqs-module
+# terraform-aws-sqs-module
