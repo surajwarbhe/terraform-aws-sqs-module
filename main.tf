@@ -1,3 +1,8 @@
+module "aws_sqs_module" {
+  source  = "surajwarbhe/aws_sqs_module/aws"
+  version = "0.1.0"
+}
+
 # Module      : AWS SQS
 # Description : Terraform module to create SQS resource on AWS for managing queue.
 resource "aws_sqs_queue" "default" {
